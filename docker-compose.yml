@@ -17,8 +17,9 @@ services:
     hostname: local
     restart: always
     volumes:
-      - ./db-data:/var/lib/postgresql/data/
+      # - ./db-data:/var/lib/postgresql/data/
       - ./sql:/docker-entrypoint-initdb.d/:ro
+        - '/f/Dev/Docker/Volumes/Postgres/14/:/var/lib/postgresql/data/'
       # - ./sql/access_attempt.sql:/docker-entrypoint-initdb.d/A.sql
       # - ./sql/bceid.sql:/docker-entrypoint-initdb.d/B.sql
       # - ./sql/lookup_activitytype.sql:/docker-entrypoint-initdb.d/C.sql
