@@ -9,15 +9,12 @@
         <version>1</version>
     </parent>
 
-    <artifactId>springboot</artifactId>
-    <packaging>jar</packaging>
-    <version>latest</version>
+    <artifactId>java-all-features</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>co.com.joserafael.java.Application</start-class>
     </properties>
 
     <dependencies>
@@ -40,13 +37,12 @@
                             <goal>repackage</goal>
                         </goals>
                         <configuration>
-                            <mainClass>co.com.joserafael.java.Main</mainClass>
+                            <mainClass>co.com.joserafael.java.Application</mainClass>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
-
 
 </project>

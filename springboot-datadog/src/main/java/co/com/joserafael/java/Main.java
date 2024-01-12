@@ -1,8 +1,5 @@
 package co.com.joserafael.java;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -18,9 +15,5 @@ public class Main {
             // for you, but you can always add more by pressing Ctrl+F8.
             System.out.println("i = " + i);
         }
-
-        Logger logger = LoggerFactory.getLogger(Main.class);
-
-        logger.info("Hello World");
     }
 }

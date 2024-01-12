@@ -8,9 +8,29 @@
     <modules>
         <module>basic</module>
         <module>springboot</module>
+        <module>springboot-datadog</module>
+        <module>java-core</module>
+        <module>java-spring</module>
+        <module>java-ee</module>
+        <module>java-all-features</module>
     </modules>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
+            <version>5.2.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>5.4.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 </project>

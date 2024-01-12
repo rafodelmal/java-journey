@@ -9,15 +9,16 @@
         <version>1</version>
     </parent>
 
-    <artifactId>springboot</artifactId>
-    <packaging>jar</packaging>
-    <version>latest</version>
+    <artifactId>java-spring</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-basic</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>co.com.joserafael.java.Application</start-class>
     </properties>
 
     <dependencies>
@@ -47,6 +48,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>
